@@ -12,4 +12,7 @@ def handle(req):
     except:
         data = []
 
-    return sum(data)
+    try:
+        return sum(data)
+    except Exception as e:
+        return str(e)
