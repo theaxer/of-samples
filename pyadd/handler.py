@@ -2,7 +2,7 @@ import json
 
 
 def handle(req):
-    """handle a request to the function
+    """handle a request to add the input
     Args:
         req (str): request body
     """
